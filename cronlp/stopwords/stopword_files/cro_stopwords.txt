@@ -1,0 +1,147 @@
+// generic croatian stopwords
+// words are commented out if they have a sense that is not a stopword
+// such words should be put in a separate list
+
+// PRIJEDLOZI
+// http://hr.wikipedia.org/wiki/Prijedlozi
+od do iz s sa
+ispred iza izvan van unutar iznad ispod
+više poviše niže prije uoči poslije nakon za 
+tijekom tokom dno podno nadno odno 
+vrh
+povrh navrh uvrh zavrh 
+// čelo
+nakraj onkraj krajem potkraj sred nasred posred usred
+oko
+okolo blizu kod 
+kraj
+pokraj pored nadomak nadohvat mimo duž uzduž širom
+diljem preko bez osim mjesto umjesto namjesto
+uime putem pomoću posredstvom između naspram spram
+put
+protiv nasuprot usuprot usprkos unatoč zbog uslijed 
+radi zaradi 
+poradi glede prigodom prilikom povodom
+k ka prema naprama nadomak nadohvat nasuprot usuprot usprkos unatoč protiv
+kroz niz uz na o po u mimo među nad pod pred za
+na o po prema pri u
+s sa pred za nad među
+pod poda 
+// nada pod poda 
+
+// PRILOZI
+// http://hr.wikipedia.org/wiki/Prilozi
+danas večeras noćas jučer sinoć preksinoć sutra preksutra ljetos 
+proljetos jesenas zimus proljeti ljeti jeseni zimi nadlani preklani
+obdan obnoć odmah smjesta sada tada onda ikada kada nikada nekada
+ponekad katkad uvijek svagda često rijetko rano kasno prije poslije potom
+nedavno skoro uskoro napokon
+odsad otad oduvijek odavna odmalena
+dosad dotad dogodine dovečer
+ovdje tu ondje negdje igdje nigdje onegdje gore dolje unutra unutar vani sprijeda straga
+ovamo onamo tamo nekamo nikamo ikamo naprijed natrag
+ovuda onuda tuda nikuda nekuda ikuda kojekuda
+odavde otud odatle odonud niotkuda odozgo odozdo odostraga izdaleka izvana izbliza
+donekle dovle dotle donle
+zato stoga
+uzalud uzaman utaman
+ovoliko toliko onoliko nekoliko malo premalo više previše prekoviše najviše
+ponajviše manje najmanje ponajmanje dosta odveć opet još sasvim potpuno previše
+jedanput dvaput triput stoput
+
+// GLAGOLI (pomoćni)
+// http://hr.wikipedia.org/wiki/Pomoćni_glagoli
+jesam	sam	budem
+jesi	si	budeš
+jest	je	bude
+jesmo	smo	budemo
+jeste	ste	budete
+jesu	su	budu
+hoću	ću	htjednem
+hoćeš	ćeš	htjedneš
+hoće	će	htjedne
+hoćemo	ćemo	htjednemo
+hoćete	ćete	htjednete
+hoće	će	htjednu
+
+bijah bio bila bijaše bilo bijasmo bili bile bijaste bijahu 
+bih bi bismo biše
+// biste
+bi bit biti hoću bio bila bilo bili bile bila
+bjeh bijaše bje bijasmo bjesmo	bijaste bjeste	bijahu bješe
+budeš bude budemo budete budu
+bismo biste biše 
+budi bude budimo budite budu
+
+htio htjela htjelo htjeli htjele htjela
+htjedoh htjeh	htjede htje htjede
+htje htjedosmo  htjesmo	htjedoste
+htjeste	htjedoše  htješe
+hotijah hoćah htijah	hotjaše
+hoćaše  htijaše	hotijaše hoćaše
+htijaše	hotijasmo hoćasmo htijasmo hotijaste
+hoćaste htijaste hotijahu hoćahu  htijahu
+hoću hoćeš hoće hoćemo hoćete hoće 
+htjet htjeti
+htijući hoteći hotjevši htjevši
+
+// ČESTICE http://hr.wikipedia.org/wiki/Čestice_(vrsta_riječi)
+li zar da kamoli negoli
+i ni također ta pa samo bar barem makar god ma čak ipak opet
+mnogo puno malo vrlo veoma gotovo skoro jedva previše sasvim potpuno
+posve osobito prilično odviše još naročito
+da ne neka jest
+evo eto eno gle
+vjerojatno doista zaista stvarno uistinu sigurno zasigurno nasreću nažalost
+eventualno uglavnom 
+// nesumnjivo
+
+// USKLICI http://hr.wikipedia.org/wiki/Usklici
+o hajde
+
+// VEZNICI http://hr.wikipedia.org/wiki/Veznici
+i pa te ni niti
+ili ili-ili
+samo što jedino tek
+dakle daklem zato stoga
+a ali nego no nu već
+da te kako neka
+gdje kamo kuda otkud(a) odakle dokud dokle
+kad otkad(a) otkako dokad(a) pošto
+dok čim prije nego što istom
+jer kako kad da zbog tog(a) s obzirom
+samo kako 
+ako kad ukoliko li 
+kao koliko god
+iako makar premda mada
+ako ma uza uz sve to pored toga što
+čak štoviše no međutim zato
+
+// BROJEVI
+// jedan N G D A V L I
+// jednina, množina nema smisla
+jedan jedna jedno
+jednog jedne jednog
+jednom jednoj jednom
+jednog jednu jedno
+
+jednom jednoj jednom
+jednim jednom jednim 
+
+dva	dvije	tri	četiri
+dvaju	dviju	triju	četiriju
+dvama	dvjema	trima	četirima
+dva	dvije	tri	četiri
+dva	dvije	tri	četiri
+dvama	dvjema	trima	četirima
+dvama	dvjema	trima	četirima
+
+
+// dodane stopriječi, nisu u gornjim kategorijama
+nisu nije se sebe koji koja koje
+
+
+
+
+
+

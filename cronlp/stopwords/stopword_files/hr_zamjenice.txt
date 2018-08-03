@@ -1,0 +1,258 @@
+// osobne zamjenice // http://hr.wikipedia.org/wiki/Osobne_zamjenice
+// deklinacija po pridjevima, izbačeni dupli oblici
+ja
+mene
+me
+meni
+mi
+mnom
+mnome
+
+ti
+tebe
+te
+tebi
+ti
+tobom
+
+on
+njega
+ga
+njemu
+mu
+njemu
+njem
+njim
+njime
+
+ona
+nje
+je
+njoj
+joj
+nju
+ju
+njom
+njome
+
+ono
+
+mi
+nas
+nama
+nam
+
+vi
+vas
+vama
+vam
+
+oni
+one
+ona
+njih
+ih
+njima
+im
+
+// pokazne zamjenice
+// http://hr.wikipedia.org/wiki/Pokazne_zamjenice
+ovaj ova ovo ovi ove ova
+ovog ove ovog ovih ovih ove
+ovom ovomu ovoj ovom ovima ovim ovoj
+ovog ovoga ovaj ovu ovo ove ove ovu
+ovom ovoj ovom ovim ovim ovoj
+ovim ovom ovim ovim ovim ovom
+taj ta to ti te ta
+onaj ona ono oni one ona
+ovakav ovakva ovakvo ovakvi ovakve ovakva
+takav takva takvo takvi takve takva
+onakav onakva onakvo onakvi onakve onakva
+ovolik ovolika ovoliko ovoliki ovolike ovolika
+tolik tolika toliko toliki tolike tolika
+onolik onolika onoliko onoliki onolike onolika
+
+// posvojne zamjenice
+// http://hr.wikipedia.org/wiki/Posvojne_zamjenice
+môj	mòje	mòja
+mòjeg(a), mog(a)	mòjē
+mòjem(u), môm	mòjōj
+mòjeg(a), môg(a)	môj	mòje	mòju
+mòjim	mòjom
+mòji	mòja	mòje
+mòjīh
+mòjim(a)
+mòje mòja mòje
+môji mòja mòje
+
+naš	naše	naša
+našeg(a)	naše
+našem(u)	našoj
+našeg(a)	naš	naše	našu
+našim	našom
+naši	naša	naše
+naših
+našim(a)
+naše	naša	naše
+
+// povratne zamjenice
+// https://hr.wikipedia.org/wiki/Povratne_zamjenice
+sebe	sebi	sebe	sebi	sobom
+se	si	se
+// povratno posvojna zamjenica svoj, 
+// prema deklinaciji od moj, izbačeni dupli oblici
+svoj svoje svoja
+svojeg(a) svog(a) svoje
+svojem(u) svom svojoj
+svoju 
+svojim svojom
+svoji svoja svoje
+svojih 
+svojim(a)
+svoje svoja
+
+// upitne zamjenice
+// https://hr.wikipedia.org/wiki/Upitne_zamjenice
+tko	što šta
+kog(a)	čeg(a)
+kom(u)	čem(u)
+koga	što
+kom, kome, komu	čem(u)
+kim(e)	čim(e)
+
+kòj(ī)	kòjā	kòjē
+kòjēg(a)	kòjē	kòjēg(a)
+kòjēm(u)	kòjōj	kòjēm(u)
+kòjēg(a)
+kòjī	kòjū	kòjē
+kòjīm	kòjōj	kòjīm
+kòjīm	kòjōj	kòjīm
+
+kòjī	kòjē	kòjā
+kòjīh	kòjīh	kòjīh
+kòjīm(a)	kòjīm(a)	kòjīm(a)
+kòjē
+kòjē
+kòjā
+kòjīm(a)	kòjīm(a)	kòjīm(a)
+kòjīm(a)	kòjīm(a)	kòjīm(a)
+// čiji se mjenja na isti način, maknuti neki dupli oblici
+// jednina
+čij(i) čija čije
+čijeg(a) 
+čijem(u) čijoj
+čijeg(a)
+čiji čiju čije
+čijim čijoj 
+// množina
+čiji čije čija
+čijih čijih čijih
+čijim(a) 
+
+// kakav i kolik mijenjaju se kao određeni i neodređeni pridjevi?
+// jednina, N G D A V L I
+kakav kakva kakvo 
+kakvog(a) kakve kakvog(a)
+kakvom(e) kakvoj kakvom(e) 
+kakvog(a) kakvu kakvo
+
+kakvom(e) kakvoj kakvom(e) 
+kakvim kakvom kakvim
+// množina, N G D A V L I
+kakvi kakve kakva
+kakvih kakvih kakve
+kakvim kakvim kakvoj
+kakve kakve kakvu
+
+kakvim kakvim kakvoj
+kakvim kakvim kakvom
+
+// jednina, N G D A V L I
+kol(i)ki kolik kol(i)ka kol(i)ko
+kol(i)kog kol(i)ke kol(i)kog
+kol(i)kom kol(i)koj kol(i)kom
+kol(i)kog kol(i)ku kol(i)ko
+
+kol(i)kom kol(i)koj kol(i)kom
+kol(i)kim kol(i)kom kol(i)kim
+
+// množina, N G D A V L I
+kol(i)ki kol(i)ke kol(i)ka
+kol(i)kih kol(i)kih kol(i)ke
+kol(i)kim kol(i)kim kol(i)koj
+kol(i)ke kol(i)ke kol(i)ku
+
+kol(i)kim kol(i)kim kol(i)koj
+kol(i)kim kol(i)kim kol(i)kom
+
+// NEODREĐENE ZAMJENICE
+// https://hr.wikipedia.org/wiki/Neodre%C4%91ene_zamjenice
+
+// Neodređene zamjenice složene sa tko, što, koji, čiji, kakav, kolik, jednako se tako i sklanjaju, 
+// kao što se i zamjenice neki i svaki mijenjaju kao pridjevi u određenom obliku.
+// treba automatizirati ovo "ljepljenje" prefiksa i sufiksa na izdeklinirane osnovne oblike
+//  tako da se svakoj deklinaciji (skupu riječi) pridjeli ID, te se doda sintaksa sa
+//  dodavanje prefiksa ili sufiksa nekom skupu
+
+netko, nešto, neki, nekakav, nečiji
+gdjetko, gdješto, gdjekoji, gdjekakav
+tkogod, štogod, kojigod, kakavgod, čijigod
+
+nitko, ništa, ničiji, nikakav
+itko, išta, ikoji, ikakav
+svatko, svašta, svaki, svačiji, svakakav, sav
+ma //ma tko, ma šta, ma koji, ma kakav, ma čiji, ma kolik
+kojetko, koješta, kojekakav
+bilo //bilo tko, bilo što, bilo koji, bilo čiji, bilo kakav
+god //tko god, što god, koji god, čiji god, kakav god
+
+// neki N G D A V L I
+// jednina
+neki neka neko
+nekog(a) neke nekog
+nekom nekoj nekom
+nekog(a) neku neko
+
+nekom(e) nekoj nekom
+nekim(e) nekom nekim
+// množina
+neki neke neka
+nekih nekih neke
+nekim nekim nekoj
+neke neke neku
+
+nekim nekim nekoj
+nekim nekim nekom
+
+// svaki N G D A V L I
+// jednina
+svaki svaka svako
+svakog(a) svaku svako
+svakom(e) svakoj svakom
+svakog(a) svaku svako
+
+svakom svakoj svakom
+svakim(e) svakom svakim
+
+// množine nema, nema smisla
+
+// sav se posebno deklinira
+
+sav	sva	sve svo
+sveg(a)	sve	sveg(a)
+svem(u)	svoj	svem(u)
+sveg(a) sav	svu	sve
+sav	sva	sve
+svem(u)	svoj	svem(u)
+svim(e)	svom	svim(e)
+
+svi	sve	sva
+svih, sviju	svih, sviju	svih, sviju
+svim(a)	svim(a)	svim(a)
+sve
+sve
+sva
+ 
+svi	sve	sva
+svim(a)	svim(a)	svim(a)
+svim(a)	svim(a)	svim(a)

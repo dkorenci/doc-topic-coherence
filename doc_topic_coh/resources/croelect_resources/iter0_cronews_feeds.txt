@@ -1,0 +1,13 @@
+iter0_cronews
+http://www.glas-slavonije.hr/Rss/Novosti
+http://www.glas-slavonije.hr/Rss/Regija
+http://www.slobodnadalmacija.hr/RssHrvatska.aspx
+http://www.slobodnadalmacija.hr/RssDalmacija.aspx
+http://www.jutarnji.hr/rss?type=section&id=10
+http://www.jutarnji.hr/rss?type=section&id=65561
+http://www.vecernji.hr/hrvatska/
+http://www.vecernji.hr/zg-vijesti/
+http://www.tportal.hr/vijesti/hrvatska/
+http://www.vijesti.rtl.hr/novosti/hrvatska/
+http://www.novilist.hr/Vijesti/Hrvatska
+http://www.novilist.hr/Vijesti/Regija

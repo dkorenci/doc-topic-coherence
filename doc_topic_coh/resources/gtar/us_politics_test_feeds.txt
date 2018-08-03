@@ -1,0 +1,4 @@
+us_politics_test
+http://www.theguardian.com/us-news/us-politics/rss
+http://feeds.washingtonpost.com/rss/politics
+http://online.wsj.com/xml/rss/3_7087.xml
