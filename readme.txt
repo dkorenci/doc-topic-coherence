@@ -1,6 +1,7 @@
 This package contains code of the experiments from the article
 "Document-based Topic Coherence Measures for News Media Text"
 https://doi.org/10.1016/j.eswa.2018.07.063
+share link: https://authors.elsevier.com/a/1XWV13PiGT7grp
 If you use the code for scientific research, please cite the original article. 
 
 All the code is licensed under GNU Lesser General Public License, 
