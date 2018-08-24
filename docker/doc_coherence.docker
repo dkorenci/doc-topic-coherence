@@ -1,0 +1,86 @@
+FROM ubuntu:16.04
+
+## prepare system
+# legacy repo, for wxgtk2.8
+ADD wily.list /etc/apt/sources.list.d/
+ADD 90apt-customization /etc/apt/apt.conf.d/
+RUN apt-get update
+RUN apt-get install apt-utils
+RUN apt-get install build-essential
+
+## core python
+RUN apt-get install python-all-dev
+RUN apt-get install python-pip
+RUN pip install -U pip
+
+## needed python libraries
+# scipy/numpy
+RUN apt-get install libopenblas-dev libatlas-base-dev gfortran
+RUN pip install -U numpy
+RUN pip install -U scipy
+RUN pip install scikit-learn
+
+# testing
+#pip install nose
+#python -c "import numpy; numpy.test('full')"
+#python -c "import scipy; scipy.test('full')"
+
+# matplotlib
+RUN apt-get install libpng12-dev libfreetype6-dev
+RUN apt-get install python-gtk2-dev # za gtk backend
+RUN apt-get install python-pyqt5 # za qt5 backend
+RUN pip install --no-binary :all: matplotlib
+
+# gensim
+RUN pip install -I gensim==0.12.4
+
+# nltk
+RUN pip install nltk
+RUN python -c "import nltk; nltk.download('stopwords')"
+
+# sql/postgres
+RUN apt-get install libpq-dev
+RUN pip install psycopg2
+RUN pip install sqlalchemy
+
+# lxml
+RUN apt-get install libxml2-dev libxslt1-dev
+RUN pip install lxml
+
+# wxgtk 2.8
+RUN apt-get install python-wxgtk2.8
+
+## extras, may be needed for some functionality
+#RUN pip install whoosh
+#RUN pip install pandas
+#RUN pip install Cython
+
+# igraph
+RUN apt-get install libxml2-dev
+RUN pip install python-igraph
+
+# misc
+RUN pip install psutil
+RUN pip install networkx
+RUN pip install openpyxl
+#RUN pip install rpy2
+
+# java and jcc
+RUN apt-get install openjdk-8-jdk
+ENV JCC_JDK /usr/lib/jvm/java-8-openjdk-amd64
+RUN pip install jcc
+
+# build jcc wrapper 4 palmetto
+# change 'palmetto' to location of the palmetto folder
+ADD palmetto /jccbuild/palmetto/
+WORKDIR /jccbuild/palmetto/
+RUN ./prepare-jars.sh
+RUN ./jcc-palmetto.sh
+
+# setup local timezone
+ENV TZ "Europe/Zagreb" 
+RUN echo $TZ > /etc/timezone
+RUN dpkg-reconfigure -f noninteractive tzdata
+
+# default run command
+CMD /bin/bash

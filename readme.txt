@@ -21,6 +21,8 @@ In order to run the experiments with word coherence measures, Palmetto jar
 has to be wrapped as a python package via the jcc tool.
 See the palmetto folder for more information.
 
+Alternatively, you can build a docker container using the code in the 'docker' folder.
+
 To run the experiments, the resources contained in the dataset package and the
 resources linked from this package have to be downloaded and the variables in
 the settings module have to point to the location of the resources.

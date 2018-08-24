@@ -1,0 +1,4 @@
+deb http://hr.archive.ubuntu.com/ubuntu/ wily main restricted
+deb http://hr.archive.ubuntu.com/ubuntu/ wily-updates main restricted
+deb http://hr.archive.ubuntu.com/ubuntu/ wily universe
+deb http://hr.archive.ubuntu.com/ubuntu/ wily-updates universe
